@@ -29,6 +29,8 @@ def play_word(player ,word):
 # Prueba de funcion play_word
 play_word('player1', 'ACCOUNT')
 
+# Funcion para recalcular los puntos cada vez que se juega una palabra
+
 # Loop para obtener puntos totales por jugador
 player_to_points = {}
 for player, words in player_to_words.items():
@@ -41,3 +43,12 @@ for player, words in player_to_words.items():
 print(player_to_words)
 print(player_to_points)
 
+
+
+
+
+
+
+# If you want extended practice, try to implement some of these ideas with the Python you’ve learned:
+# update_point_totals() — turn your nested loops into a function that you can call any time a word is played
+# make your letter_to_points dictionary able to handle lowercase inputs as well
